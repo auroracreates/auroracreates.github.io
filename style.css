@@ -19,6 +19,25 @@ header {
     text-align:center;
 }
 
+footer {
+    border:1px dashed #9797c7;
+    text-align:center; 
+    width:650px;
+    padding:10px;
+    margin:auto;
+    position:absolute;
+    }
+
+.grid {
+    display:grid;
+    }
+
+.griditems {
+    padding:10px;
+    background:lavenderblush;
+    border: 1px dotted #9797c7;
+}
+
 h1 {
     line-height:20px;
 }
@@ -41,15 +60,6 @@ h3 {
     width:100px;
     float:left;
 }
-
-footer {
-    border:1px dashed #9797c7;
-     text-align:center; 
-     width:650px;
-     padding:10px;
-     margin:auto;
-     position:absolute;
-    }
     
 .clear { 
     clear:both; 
