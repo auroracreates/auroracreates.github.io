@@ -30,6 +30,7 @@ footer {
 
 .grid {
     display:grid;
+    grid-template-columns: auto auto auto;
     }
 
 .griditems {
