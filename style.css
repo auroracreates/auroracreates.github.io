@@ -5,5 +5,5 @@ h1 {line-height:20px;}
 h3 {line-height:20px;}
 .container {border-left:1px dashed #9797c7;padding:10px 10px 0px 10px;margin:10px auto;width:500px;float:left;}
 .sidebar {padding:10px;margin:10px auto;width:100px;float:left;}
-footer {border:1px dashed #9797c7; text-align:center; width:640px;padding:10px;margin:auto;position:absolute;}
+footer {border:1px dashed #9797c7; text-align:center; width:650px;padding:10px;margin:auto;position:absolute;}
 .clear { clear:both; }
