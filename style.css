@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("https://wily.neocities.org/debug/deer-forest-sounds-m.png");
+    background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("/img/wolf_1280.jpg");
     background-position:center;
     margin:auto;color:#fff;
     padding:10px;
