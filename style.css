@@ -1,72 +1,66 @@
-body {
-    background:lavender;
-    color:#8080ad;
-    font-size:18px;
-    font-family:"Calibri";
-}
 
-#wrapper {
-    width:100vw;
-    margin:auto;
-    display:inline-block;
+/*Default HTML element styling*/
+
+body {
+    background:whitesmoke;
+    color:grey;
+    font-size:1.5em;
+    font-family:"Calibri";
+    margin:0;
 }
 
 header {
-    background-image: linear-gradient(rgba(255,255,255,0.25), rgba(255,255,255,0.25)), url("/img/wolf_1280.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0,0,0,0.25)), url("img/wolf_1280.jpg");
+    background-size: cover;
     background-position:center;
+    background-repeat:no-repeat;
     margin:0;
     color:#fff;
     text-align:center;
-    width:100%;
-    
+    max-width:100vw;
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+    flex-direction:column;
 }
 
 footer {
-    border:1px dashed #9797c7;
-    text-align:center; 
-    width:650px;
-    padding:10px;
-    margin:auto;
-    position:absolute;
-    }
-
-.grid {
-display: grid;
-grid-template-columns: auto auto auto;
-background-color: purple;
-padding: 10px;
+    border:1px dashed grey;
+    text-align:center;
 }
 
-.griditem {
-background-color: lavender;
-border: 1px dashed #9797c7;
-padding: 10px;
-font-size: 20px;
-text-align: center;}
-
-h1 {
-    line-height:20px;
+main{
+    margin:25px;
 }
 
-h3 {
-    line-height:20px;
+
+h1{
+    margin:0;
 }
 
-.container {
-    border-left:1px dashed #9797c7;
-    padding:10px 10px 0px 10px;
-    margin:10px auto;
-    width:500px;
-    float:left;
+h4{
+    border-top:10px white solid;
+    font-style:italic;
 }
 
-.sidebar {
-    padding:10px;
-    margin:10px auto;
-    width:100px;
-    float:left;
+.wrapper{
+    width:100vw;
 }
-    
-.clear { 
-    clear:both; 
+
+/*Custom elements*/
+.header-text {
+    font-size:1.33em;
+    padding:3em 0;
 }
+
+.top-bar
+{
+    background:black;
+    color:whitesmoke;
+    padding:0.75em;
+    font-size:1.25em;
+    position:sticky;
+    position: -webkit-sticky;
+    top:0;
+}
+
