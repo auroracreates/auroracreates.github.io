@@ -6,17 +6,19 @@ body {
 }
 
 #wrapper {
-    width:650px;
+    width:100vw;
     margin:auto;
-    display:block;
+    display:inline-block;
 }
 
 header {
-    background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("/img/wolf_1280.jpg");
+    background-image: linear-gradient(rgba(255,255,255,0.25), rgba(255,255,255,0.25)), url("/img/wolf_1280.jpg");
     background-position:center;
-    margin:auto;color:#fff;
-    padding:10px;
+    margin:0;
+    color:#fff;
     text-align:center;
+    width:100%;
+    
 }
 
 footer {
