@@ -1,18 +1,18 @@
 body{
-    background:#cdd1de;
-    color:#00044f;
+    background:#d9dde9;
+    color:#00055c;
     font-family:"Space Mono","courier new",sans-serif;
     margin:0;
     font-size:1.25em;
 }
 a{
-    color:#00044f;
+    color:#00055c;
 }
 a:hover,a:focus{
     font-style: italic;
 }
 nav a{
-    color:#00044f;
+    color:#00055c;
     font-size:1.15em;
     padding:0 5px;
 }
@@ -25,7 +25,7 @@ header,footer{
     margin:1em 0;
 }
 hr{
-    border:2px #00044f solid;
+    border:2px #00055c solid;
 }
 #zero{
     text-align:justify;
@@ -52,12 +52,12 @@ hr{
 }
 .preview{
     border-radius:25px;
-    border:2px solid #00044f;
+    border:2px solid #00055c;
     width:100%;
 }
 a.seemore{
     padding:10px;
-    background-color:#00044f;
+    background-color:#00055c;
     color:#cdd1de;
     text-decoration: none;
     border:transparent;
@@ -66,8 +66,8 @@ a.seemore:hover,
 a.seemore:focus
 {
     background-color:transparent;
-    color:#00044f;
-    border:2px #00044f solid;
+    color:#00055c;
+    border:2px #00055c solid;
     font-style: normal;
 }
 
