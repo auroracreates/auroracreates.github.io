@@ -3,7 +3,7 @@ body{
     color:#00044f;
     font-family:"Space Mono","courier new",sans-serif;
     margin:0;
-    font-size:1.15em;
+    font-size:1.25em;
 }
 a{
     color:#00044f;
@@ -69,5 +69,12 @@ a.seemore:focus
     color:#00044f;
     border:2px #00044f solid;
     font-style: normal;
+}
+
+@media (max-width:800px)
+{
+    body{
+    font-size:1em;
+    }
 }
 
