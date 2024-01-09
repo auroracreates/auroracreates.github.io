@@ -1,3 +1,14 @@
+:root{
+    scrollbar-color: #00055c #dde1eb;
+    
+}
+::-webkit-scrollbar-thumb {
+    background: #00055c;
+}
+::-webkit-scrollbar-track {
+    background: #dde1eb;
+}
+
 body{
     background:#dde1eb;
     color:#00055c;
