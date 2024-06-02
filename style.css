@@ -12,12 +12,12 @@ body{
 }
 a{
     color:var(--text-color);
-    border-bottom:3px solid var(--text-color);
+    border-bottom:3px dashed var(--text-color);
     text-decoration:none;
-    font-style:italic;
 }
 a:hover,a:focus{
     color:var(--link-hover);
+    font-style:italic;
 }
 nav a{
     color:var(--text-color);
