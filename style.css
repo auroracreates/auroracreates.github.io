@@ -12,8 +12,9 @@ body{
 }
 a{
     color:var(--text-color);
-    border-bottom:2px dashed var(--text-color);
+    border-bottom:3px solid var(--text-color);
     text-decoration:none;
+    font-style:italic;
 }
 a:hover,a:focus{
     color:var(--link-hover);
@@ -73,8 +74,8 @@ a.seemore:hover,
 a.seemore:focus
 {
     background-color:transparent;
-    color:var(--link-hover);
-    border:2px var(--link-hover) solid;
+    color:var(--text-color);
+    border:2px var(--text-color) solid;
     font-style: normal;
 }
 
