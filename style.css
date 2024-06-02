@@ -10,7 +10,9 @@ body{
     font-size:1.25em;
 }
 a{
-    color:#00055c;
+    color:var(--text-color);
+    border-bottom:3px dashed var(--text-color);
+    text-decoration:none;
 }
 a:hover,a:focus{
     font-style: italic;
