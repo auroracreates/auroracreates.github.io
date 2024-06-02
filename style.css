@@ -22,7 +22,7 @@ a:hover,a:focus{
 nav a{
     color:var(--text-color);
     font-size:1.15em;
-    padding:0 5px;
+    margin:0 5px;
 }
 
 header,main,nav,footer{
