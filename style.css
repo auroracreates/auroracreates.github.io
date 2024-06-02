@@ -61,6 +61,7 @@ hr{
 }
 svg{
     color:var(--text-color);
+    margin:0 5px;
 }
 .preview{
     border-radius:25px;
