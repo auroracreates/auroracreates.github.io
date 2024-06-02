@@ -1,7 +1,12 @@
 :root{
     --background-color: #f9f9f9;
     --text-color:#444;
-    --link-hover:#982c61;
+}
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background-color: #f9f9f9;
+        --text-color:#444;
+    }
 }
 body{
     background:var(--background-color);
@@ -12,7 +17,7 @@ body{
 }
 a{
     color:var(--text-color);
-    border-bottom:3px dashed var(--text-color);
+    border-bottom:3px dotted var(--text-color);
     text-decoration:none;
 }
 a:hover,a:focus{
