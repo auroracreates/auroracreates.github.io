@@ -1,6 +1,7 @@
 :root{
     --background-color: #f9f9f9;
-    --text-colour:#444;
+    --text-color:#444;
+    --link-hover:#982c61;
 }
 body{
     background:var(--background-color);
@@ -15,10 +16,10 @@ a{
     text-decoration:none;
 }
 a:hover,a:focus{
-    font-style: italic;
+    color:var(--link-hover);
 }
 nav a{
-    color:#00055c;
+    color:var(--text-color);
     font-size:1.15em;
     padding:0 5px;
 }
@@ -58,13 +59,13 @@ hr{
 }
 .preview{
     border-radius:25px;
-    border:2px solid #00055c;
+    border:2px solid var(--text-color);
     width:100%;
 }
 a.seemore{
     padding:10px;
-    background-color:#00055c;
-    color:#cdd1de;
+    background-color:var(--text-color);
+    color:var(--background-color);
     text-decoration: none;
     border:transparent;
 }
@@ -72,8 +73,8 @@ a.seemore:hover,
 a.seemore:focus
 {
     background-color:transparent;
-    color:#00055c;
-    border:2px #00055c solid;
+    color:var(--link-hover);
+    border:2px var(--link-hover) solid;
     font-style: normal;
 }
 
