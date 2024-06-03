@@ -44,16 +44,19 @@ footer{
 hr{
     border:2px solid var(--text-color);
 }
+ul{
+    margin-left:-10px;
+}
 #zero{
     text-align:justify;
 }
 .grid-container{
-    max-width:1200px;
+    max-width:750px;
     margin:auto;
     box-sizing: border-box;
     display:grid;
     grid-template-rows: auto auto auto auto;
-    grid-template-columns: auto 75% auto;
+    grid-template-columns: auto 90% auto;
     justify-content:space-evenly;
 }
 .flexbox{
