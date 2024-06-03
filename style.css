@@ -44,9 +44,6 @@ footer{
 hr{
     border:2px solid var(--text-color);
 }
-ul{
-    margin-left:-10px;
-}
 #zero{
     text-align:justify;
 }
