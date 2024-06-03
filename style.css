@@ -26,7 +26,7 @@ a{
 a:hover,a:focus{
     /*background-color:var(--text-color);
     color:var(--background-color);*/
-    font-style:italic;
+    border-bottom:unset;
 }
 nav a{
     color:var(--text-color);
@@ -48,7 +48,7 @@ hr{
     text-align:justify;
 }
 .grid-container{
-    max-width:750px;
+    max-width:780px;
     margin:auto;
     box-sizing: border-box;
     display:grid;
