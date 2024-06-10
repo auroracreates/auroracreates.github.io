@@ -1,4 +1,6 @@
-
+*{
+    box-sizing:border-box;
+}
 :root{
     --background-color: #f9f9f9;
     --text-color:#444;
@@ -15,6 +17,7 @@ body{
     font-family:"Space Mono","courier new",sans-serif;
     margin:0;
     font-size:1.25em;
+    overflow-y:scroll;
 }
 a{
     color:var(--text-color);
@@ -22,8 +25,6 @@ a{
     text-decoration:none;
 }
 a:hover,a:focus{
-    /*background-color:var(--text-color);
-    color:var(--background-color);*/
     border-bottom:unset;
 }
 nav a{
@@ -42,11 +43,11 @@ footer{
 hr{
     border:2px solid var(--text-color);
 }
-#zero{
+.justify{
     text-align:justify;
 }
 .grid-container{
-    max-width:825px;
+    max-width:800px;
     margin:auto;
     box-sizing: border-box;
     display:grid;
@@ -60,18 +61,22 @@ hr{
     align-items: center;
     flex-wrap: wrap;
 }
-.flexbox section{
-    max-width:48%;
-    margin:2px;
-}
 svg{
     color:var(--text-color);
     margin:0 5px;
 }
 .preview{
-    border-radius:25px;
     border:4px solid var(--text-color);
-    width:100%;
+    width:256px;
+    height:144px;
+}
+.demo-chunk p{
+    max-width:192px;
+}
+.small-preview{
+    border:4px solid var(--text-color);
+    width:192px;
+    height:108px;
 }
 a.seemore{
     padding:10px;
@@ -87,6 +92,7 @@ a.seemore:focus
     color:var(--text-color);
     border:4px var(--text-color) solid;
     font-style: normal;
+    padding:6px;
 }
 
 @media (max-width:800px)
