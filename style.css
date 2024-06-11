@@ -71,12 +71,22 @@ svg{
     height:144px;
 }
 .demo-chunk p{
-    max-width:192px;
+    max-width:200px;
 }
 .small-preview{
     border:4px solid var(--text-color);
     width:192px;
     height:108px;
+    opacity:0.8;
+}
+.small-preview:hover{
+    opacity:1;
+}
+.demo-chunk{
+    display:inline-block;
+}
+.demo-chunk a{
+    border-bottom:none;
 }
 a.seemore{
     padding:10px;
