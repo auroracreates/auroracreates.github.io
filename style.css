@@ -91,9 +91,9 @@ svg{
 a.seemore{
     padding:10px;
     background-color:var(--text-color);
+    border:4px var(--text-color) solid;
     color:var(--background-color);
     text-decoration: none;
-    border:transparent;
 }
 a.seemore:hover,
 a.seemore:focus
@@ -102,7 +102,6 @@ a.seemore:focus
     color:var(--text-color);
     border:4px var(--text-color) solid;
     font-style: normal;
-    padding:6px;
 }
 
 @media (max-width:800px)
